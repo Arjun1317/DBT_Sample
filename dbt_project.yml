@@ -18,9 +18,9 @@ clean-targets:
 
 models:
   snowflake_workshop_ETL:
-    staging:
-      materialized: view
-      snowflake_warehouse: pc_dbt_wh
-    marts:
-      materialized: table
-      snowflake_warehouse: pc_dbt_wh
+    #staging:
+     # materialized: view
+      #snowflake_warehouse: pc_dbt_wh
+    #marts:
+     # materialized: table
+      #snowflake_warehouse: pc_dbt_wh
