@@ -2,3 +2,5 @@
 target/
 dbt_packages/
 logs/
+my_first_dbt_model
+my_second_dbt_model
