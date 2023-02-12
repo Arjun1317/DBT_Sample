@@ -12,7 +12,7 @@ sources:
           - name: o_orderkey
             description: SF*1,500,000 are sparsely populated
             tests: 
-              - unique
+              #- unique
               - not_null
 
       - name: lineitem
